@@ -40,12 +40,19 @@ ul {
 }
 
 .section-middle {
+  display: flex;
   width: 60%;
+  height: 690px;
+  padding: 5px 10px;
   border: 1px solid black;
+  flex-direction: column;
+  column-count: 3;
+  column-gap: 0;
+  flex-wrap: wrap;
 }
 
 .section-right {
-  width: 00%;
+  width: 20%;
   border: 1px solid black;
 }
 
@@ -57,4 +64,29 @@ ul {
 .left-head {
   font-style: italic;
   font-weight: bold;
+}
+.img {
+  width: 80%;
+  border: 1px solid black;
+}
+
+.section-middle h1 {
+  margin: 0;
+}
+
+.section-middle p {
+  margin: 0;
+}
+
+.section-middle a {
+  margin: 0;
+}
+
+.second-section {
+  order: 3;
+}
+
+.section-middle section {
+  width: 50%;
+  margin-top: 20px;
 }
