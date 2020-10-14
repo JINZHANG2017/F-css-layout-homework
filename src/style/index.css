@@ -28,3 +28,33 @@ ul {
   justify-content: space-around;
   align-items: center;
 }
+
+.main {
+  display: flex;
+}
+
+.aside {
+  width: 20%;
+  padding: 60px;
+  border: 1px solid black;
+}
+
+.section-middle {
+  width: 60%;
+  border: 1px solid black;
+}
+
+.section-right {
+  width: 00%;
+  border: 1px solid black;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-head {
+  font-style: italic;
+  font-weight: bold;
+}
